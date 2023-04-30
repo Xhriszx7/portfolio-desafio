@@ -51,7 +51,7 @@ body {
 
 .links {
     width: 350px;
-    height: 260px;
+    height: 280px;
     background-color: #302F3D;
     position: relative;
     margin: 40px;
@@ -68,7 +68,7 @@ body {
 }
 #cardlink {
     position: absolute;
-    top: 10px;
+    top: 20px;
     left: 20px;
 }
 .link p {
@@ -93,4 +93,58 @@ body {
 }
 #gmail {
     align-items: center;
+}
+
+
+.tecnos {
+    width: 350px;
+    height: 100px;
+    background-color: #302F3D;
+    margin: 40px;
+    border-radius: 20px;
+}
+.tecnologias {
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+}
+.tecnologias p {
+    padding-top: 3px;
+    color: #000000;
+    font-size: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.tec {
+    background-color: #CB92B1;
+    border-radius: 20px;
+}
+.title {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px;
+    padding-top: 10px;
+}
+#html {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 8px;
+    width: 52px;
+    height: 20px;
+}
+#css {
+    margin-right: auto;
+    margin-left: auto;
+    width: 32px;
+    height: 20px;
+    padding-left: 5px;
+    justify-content: center;
+}
+#js {
+    margin-right: auto;
+    margin-left: auto;
+    width: 72px;
+    height: 20px;
+    padding-left: 6px;
 }
