@@ -51,7 +51,7 @@ body {
 
 .links {
     width: 350px;
-    height: 350px;
+    height: 260px;
     background-color: #302F3D;
     position: relative;
     margin: 40px;
@@ -60,5 +60,37 @@ body {
 .links .link {
     display: flex;
     flex-direction: row;
+    justify-content: start;
     padding: 10px;
+}
+.links .link div {
+    padding-right: 10px;
+}
+#cardlink {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.link p {
+    font-size: 12px;
+    font-weight: 400;
+}
+.link img {
+    width: 24px;
+    height: 24px;
+}
+#loc {
+    align-items: center;
+}
+#work {
+    align-items: center;
+}
+#git {
+    align-items: center;
+}
+#linkedin {
+    align-items: center;
+}
+#gmail {
+    align-items: center;
 }
